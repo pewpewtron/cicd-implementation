@@ -10,6 +10,6 @@ podman run -d \
   sonatype/nexus3
 ```
 
-To monitor setup proses run log command `podman logs -f nexus`
+To monitor setup proses run log command `podman logs -f nexus-service`
 
 ## 2. Nexus Repository OSS setup

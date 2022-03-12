@@ -38,4 +38,8 @@ podman run -d \
   gitlab/gitlab-ce:latest
 ```
 
+This step could take a while, to monitor the progress of the container run the following command: `podman logs -f gitlab-service`
+
 ## 3. Gitlab setup
+
+After the container run try to access the gitlab server using server ip and login using root email and password that define earlier.
