@@ -43,3 +43,24 @@ This step could take a while, to monitor the progress of the container run the f
 ## 3. Gitlab setup
 
 After the container run try to access the gitlab server using server ip and login using root email and password that define earlier.
+
+## 4. Create new user and Personal Access Token for Jenkins integration
+
+Login as admin then select menu then Admin > Users > New User > Create new user 
+
+```yaml
+gitlab_user:
+  name: "jenkins-user"
+  username: "Redhat123!@#"
+```
+After new user is created now login as said user and create a Personal Access Token from User Settings > Access Tokens
+
+```yaml
+gitlab-jenkins-token=yKixv6zzmds5QzExRrNn
+```
+
+## 5. Create new repo
+
+
+GitLabs 10.88.0.6
+Jenkins 10.88.0.9
